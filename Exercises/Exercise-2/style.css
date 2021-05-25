@@ -1,0 +1,256 @@
+/*CSS Flags*/
+
+html{
+	overflow: scroll;
+	height: 100%;
+}
+
+.flag {
+	display: grid;
+}
+
+.flag-Sweden {
+	position: absolute;
+	top: 1%;
+	width: 720px;
+	height: 450px;
+	border: 1px solid black;
+	grid-template-columns: 225px 90px 405px;
+	grid-template-rows: 180px 90px 180px;
+}
+
+.flag-Sweden div{
+	/*border: 1px solid black;*/
+}
+
+.grid-item-a{
+	background-color: #fecd00;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start:2;
+	grid-row-end: 2;
+}
+
+.grid-item-b{
+	background-color: #fecd00;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start:1;
+	grid-row-end: span 3;
+}
+
+
+.grid-item-c{
+	background-color: #006aa8;
+	grid-column-start:1;
+	grid-column-end:1;
+	grid-row-start:1;
+	grid-row-end:1;
+}
+
+.grid-item-d{
+	background-color: #006aa8;
+	grid-column-start:1;
+	grid-column-end:1;
+	grid-row-start:3;
+	grid-row-end:3;
+}
+
+.grid-item-e{
+	background-color: #006aa8;
+	grid-column-start:3;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:1;
+
+}
+
+.grid-item-f{
+	background-color: #006aa8;
+	grid-column-start:3;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:3;
+}
+
+/*Sweden flag ends*/
+
+/*Denmark flag starts*/
+
+.flag-Denmark {
+	position: absolute;
+	top: 103%;
+	width: 765px;
+	height: 630px;
+	border: 1px solid black;
+	grid-template-columns: 270px 90px 405px;
+	grid-template-rows: 270px 90px 270px;
+}
+
+
+.flag-Denmark div{
+	/*border: 1px solid black;*/
+}
+
+.grid-item-g{
+	background-color: #c60c30;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-item-h{
+	background-color: #c60c30;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-item-i{
+	background-color: #c60c30;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.grid-item-j{
+	background-color: #c60c30;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+
+
+/*Denmark flag ends*/
+
+/*Finland flag starts*/
+
+.flag-Finland {
+	position: absolute;
+	top: 102%;
+	width: 810px;
+	height: 585px;
+	border: 1px solid black;
+	grid-template-columns: 225px 135px 450px;
+	grid-template-rows: 225px 135px 225px;
+
+}
+
+.flag-Finland div{
+	/*border: 1px solid black;*/
+}
+
+.grid-item-k{
+	background-color: #002f6c;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.grid-item-l{
+	background-color: #002f6c;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+/*Finland flag ends*/
+
+/*Iceland flag starts*/
+
+.flag-Iceland {
+	position: absolute;
+	top: 102%;
+	width: 1125px;
+	height: 810px;
+	border: 1px solid black;
+	grid-template-columns: 315px 45px 90px 45px 630px;
+	grid-template-rows: 315px 45px 90px 45px 315px;
+
+}
+
+.flag-Iceland div{
+/*	border: 1px solid black;*/
+}
+
+.grid-item-m{
+	background-color: #dc1e35;
+	grid-column-start: 1;
+	grid-column-end: span 5;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.grid-item-n{
+	background-color: #dc1e35;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: span 5;
+}
+
+.grid-item-o{
+	background-color: #02529c;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-item-p{
+	background-color: #02529c;
+	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-item-q{
+	background-color: #02529c;
+	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 5;
+}
+
+.grid-item-r{
+	background-color: #02529c;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 5;
+	grid-row-end: 5;
+}
+
+/*Iceland flag ends*/
+
+/*Japan fag starts*/
+
+.flag-Japan {
+	position: absolute;
+	top: 102%;
+	width: 1080px;
+	height: 720px;
+	border: 1px solid black;
+	grid-template-columns: 324px 432px 324px;
+	grid-template-rows: 144px 432px 144px;
+
+}
+.flag-Japan div{
+/*	border: 1px solid black;*/
+}
+
+.grid-item-s{
+	background-color: #be0029;
+	border-radius: 50%;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
