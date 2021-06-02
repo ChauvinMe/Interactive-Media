@@ -1,0 +1,95 @@
+/*Defining the Grid*/
+.grid{
+	display:  grid;
+	grid-template-columns:  repeat(3, 33.33%);
+	grid-template-rows:  10% 90%;
+	/*border:  1px solid black;*/
+	height:  1000px;
+}
+
+.header{
+	grid-column-start: 1;
+	grid-column-end:  span 3;
+}
+
+/*for testing the grid*/
+/*.grid div{
+	border: 1px solid black;
+}*/
+
+/*Creates an animation for Bounce*/
+@keyframes bouncing-letters {
+	from {
+		transform:  translateY(0px);
+	}
+	to {
+		transform:  translateY(700px);
+	}
+}
+
+/*specifies that Bounce should animate with mouse hover*/
+h2:hover{
+	color: #e7b913;
+	animation: bouncing-letters ease-in alternate infinite 1s;
+}
+
+/*creates an animation for Shiver*/
+@keyframes shivering-letters {
+  	50%, 50% {
+    transform: translate3d(-5px, 0, 0);
+  }
+}
+
+/*specifies that Shiver should animate with mouse hover*/
+h3:hover {
+	color: #3B49F4;
+  	animation: shivering-letters 2ms infinite;
+  	transform: translate3d(0, 0, 0);
+}
+
+/*specifies animation for Disappear*/
+@keyframes Disappear{
+	from{
+		transform: translateX(0); color:  red;
+	}
+	to{
+		transform: translateX(50px); color: white;
+	}
+}
+
+/*specifies that Disappear should animate with mouse hover*/
+h4:hover{
+	animation: Disappear 2s infinite;
+}
+
+
+/*text styling for Google Font*/
+
+h2{
+	font-family: 'Bangers','Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 70px;
+}
+
+/*text styling got Adobe Font*/
+
+h3{
+	font-family: 'ccmonstermashoutline', 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 70px;
+}
+
+/*text styling for Self-Hosted Font*/
+/*https://www.fontsquirrel.com/fonts/After-Shok?filter%5Bdownload%5D=local&filter%5Blicense%5D%5B0%5D=web*/
+@font-face {
+    font-family: 'after shok';
+    src: url('After_Shok-webfont.woff') format('woff');
+    font-weight:  normal;
+    font-style: normal;
+}
+
+h4{
+	font-family: 'after shok', 'Poppins', sans-serif;
+	font-size:  60px;
+}
+
