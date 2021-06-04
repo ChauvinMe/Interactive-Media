@@ -1,0 +1,847 @@
+/*laying out the grid*/
+
+
+.letter {
+    width:260px; /*resize as you see fit */
+    height:300px; /*resize as you see fit */
+    display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    border:1px solid #000; /*feel free to remove or hide this rule */
+    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+    
+}
+        	
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat;
+}
+
+
+/*these are the guidelines for each shape that I used for testing*/
+
+/*.circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+}
+
+.curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(59,83,163,.7);
+}
+
+
+.half-circle {
+    height: 70px;
+    width: 150px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(244,157,178,.7);
+}
+
+.curved-top-medium {
+    height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+}
+
+.curved-top-short {
+    height: 115px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: green;
+}*/
+
+/*this configures each letter*/
+
+.letter div{
+	position:  absolute;
+}
+
+/*letter a starts*/
+
+.letter-a-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 0;
+}
+
+.letter-a-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  35px;
+}
+
+.letter-a-curved-top-medium {
+	height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+    bottom:  0;
+    left:  105px;
+}
+
+/*letter a ends*/
+
+/*letter b starts*/
+
+.letter-b-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    bottom: 0;
+    left: 95px;
+}
+
+.letter-b-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  60px;
+}
+
+.letter-b-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+}
+
+/*letter b ends*/
+
+/*letter c starts*/
+
+.letter-c-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  35px;
+}
+
+.letter-c-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 0;
+}
+
+/*letter c ends*/
+
+/*letter d starts*/
+
+.letter-d-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 0;
+}
+
+.letter-d-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  35px;
+}
+
+.letter-d-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+    left:  105px;
+}
+
+/*letter e starts*/
+
+.letter-e-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 70px;
+	left: 40px;
+}
+
+.letter-e-half-circle-bottom {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: -40px;
+    left: 40px;
+}
+
+.letter-e-half-circle-top {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(-90deg);
+    bottom: 65px;
+    left: 40px;
+}
+
+/*letter e ends*/
+
+/*letter f begins*/
+.letter-f-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 115px;
+	left: 40px;
+}
+.letter-f-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(-90deg);
+    bottom: 110px;
+    left: 40px;
+}
+
+.letter-f-curved-top-medium {
+	height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+    bottom:  0;
+}
+
+/*letter f ends*/
+
+/*letter g begins*/
+
+.letter-g-half-circle-top {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 150px;
+}
+
+.letter-g-circle-top {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 190px;
+	left:  35px;
+}
+
+.letter-g-half-circle-bottom {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    bottom: 0;
+    left: 70px;
+}
+
+/*letter g ends*/
+
+/*letter h begins*/
+
+.letter-h-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(-90deg);
+    bottom: -5px;
+    left: 60px;
+}
+
+.letter-h-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 0;
+	left:  60px;
+}
+
+.letter-h-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+}
+
+/*letter h ends*/
+
+/*letter i starts*/
+
+.letter-i-curved-top-short {
+	height: 115px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1,153,102,.7);
+    bottom:  0;
+    left:  5px;
+}
+
+.letter-i-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 130px;
+}
+
+/*letter i ends*/
+
+/*letter j begins*/
+
+.letter-j-curved-top-medium {
+	height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+    bottom:  0;
+    left:  90px;
+}
+
+.letter-j-circle-top {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 165px;
+	left:  85px;
+}
+
+.letter-j-circle-bottom {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 35px;
+	left:  40px;
+}
+
+.letter-j-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: -40px;
+    left: 40px;
+}
+
+/*letter j ends*/
+
+/*letter k begins*/
+
+.letter-k-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 0;
+    left: 60px;
+}
+
+.letter-k-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+    
+}
+
+.letter-k-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  95px;
+}
+
+/*letter k ends*/
+
+/*letter l begins*/
+
+.letter-l-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+}
+
+/*letter l ends*/
+
+/*letter m begins*/
+
+.letter-m-half-circle-left {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(-90deg);
+    bottom: -5px;
+    left: 40px;
+}
+
+.letter-m-half-circle-right {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(-90deg);
+    bottom: -5px;
+    left: 150px;
+}
+.letter-m-circle-left {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 0;
+	left: 40px;
+}
+
+.letter-m-circle-right {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 0;
+	left:  150px;
+}
+
+/*letter m ends*/
+
+/*letter n begins*/
+
+.letter-n-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 0;
+	left: 60px;
+}
+
+.letter-n-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(-90deg);
+    bottom: -5px;
+    left: 60px;
+}
+
+.letter-n-curved-top-medium {
+	height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+    bottom:  0;
+}
+
+/*letter n ends*/
+
+/*letter o begins*/
+
+.letter-o-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  35px;
+}
+
+.letter-o-half-circle-left {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 0;
+}
+
+.letter-o-half-circle-right {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    bottom: 0;
+    left: 70px;
+}
+
+/*letter o ends*/
+
+/*letter p begins*/
+
+.letter-p-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    bottom: 70px;
+    left: 95px;
+}
+
+.letter-p-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 110px;
+	left:  60px;
+}
+
+.letter-p-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    transform:  rotate(180deg);
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+}
+
+/*letter p ends*/
+
+/*letter q begins*/
+
+.letter-q-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    transform:  rotate(180deg);
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+    left: 105px;
+}
+
+.letter-q-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 75px;
+}
+
+.letter-q-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 115px;
+	left:  35px;
+}
+
+/*letter q ends*/
+
+/*letter r begins*/
+
+.letter-r-curved-top-medium {
+	height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+    bottom:  0;
+}
+
+.letter-r-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 80px;
+	left: 60px;
+}
+
+/*letter r ends*/
+
+/*letter s begins*/
+
+.letter-s-half-circle-top {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 150px;
+}
+
+.letter-s-circle-top {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 190px;
+	left:  35px;
+}
+
+.letter-s-half-circle-bottom {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    bottom: 0;
+    left: 70px;
+}
+
+.letter-s-circle-bottom {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  35px;
+}
+
+/*letter s ends*/
+
+/*letter t begins*/
+
+.letter-t-curved-top-medium {
+	height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+    bottom:  0;
+    left:  45px;
+}
+
+.letter-t-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: 110px;
+    left: 40px;
+}
+
+/*letter t ends*/
+
+/*letter u begins*/
+
+.letter-u-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: -40px;
+    left: 40px;
+}
+
+.letter-u-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 35px;
+	left:  40px;
+}
+
+.letter-u-curved-top-medium {
+	height: 150px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(1, 153, 102, .7);
+    bottom:  0;
+    left:  110px;
+}
+
+/*letter u ends*/
+
+/*letter v begins*/
+
+.letter-v-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: -40px;
+    left: 40px;
+}
+
+.letter-v-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 35px;
+	left:  40px;
+}
+
+/*letter v ends*/
+
+/*letter w begins*/
+
+.letter-w-half-circle-left {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: -40px;
+    left: 40px;
+}
+
+.letter-w-circle-left {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 35px;
+	left:  40px;
+}
+
+.letter-w-half-circle-right {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: -40px;
+    left: 150px;
+}
+
+.letter-w-circle-right {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 35px;
+	left:  150px;
+}
+
+/*letter w ends*/
+
+/*letter x begins*/
+
+.letter-x-half-circle-right {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 0;
+    left: 70px;
+}
+
+.letter-x-half-circle-left {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    bottom: 0;
+    left: 0;
+}
+
+/*letter x ends*/
+
+/*letter y begins*/
+
+.letter-y-half-circle {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(90deg);
+    bottom: 75px;
+    left: 40px;
+}
+
+.letter-y-circle {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 150px;
+	left:  40px;
+}
+
+.letter-y-curved-top-long {
+	height: 220px;
+    width: 60px;
+    border-radius: 150px 150px 0 0;
+    transform:  rotate(180deg);
+    background-color: rgba(59,83,163,.7);
+    bottom:  0;
+    left: 105px;
+}
+
+/*letter y ends*/
+
+/*letter z begins*/
+
+.letter-z-half-circle-bottom {
+	height: 150px;
+    width: 70px;
+    border-radius: 0px 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    transform:  rotate(180deg);
+    bottom: 0
+}
+
+.letter-z-circle-bottom {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 40px;
+	left:  35px;
+}
+
+.letter-z-half-circle-top {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(244,157,178,.7);
+    bottom: 150;
+    left: 70px;
+}
+
+.letter-z-circle-top {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(250,163,32,.7);
+	bottom: 190px;
+	left:  35px;
+}
+
+/*letter z ends*/
