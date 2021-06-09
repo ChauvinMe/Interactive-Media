@@ -1,0 +1,18 @@
+/*Typographic Poster*/
+
+/*defining the grid*/
+
+.content{
+	width: 100px;
+	height: 150px;
+	display: inline-block;
+	border: 1px solid black;
+	position: relative;
+}
+
+.grid{
+	display: inline-grid;
+	grid-template-columns: repeat(25, 4%);
+	grid-template-rows:  repeat(8, 12.5%);
+	border: 1px solid black;
+}
