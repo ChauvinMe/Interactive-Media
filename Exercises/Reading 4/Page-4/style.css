@@ -1,0 +1,60 @@
+/*styling for page 4 of reading 4*/
+
+
+.grid{
+	display: grid;
+	grid-template-rows: 20% 30% 50%;
+	height: 800px;
+}
+
+
+.title, .link{
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+
+h1{
+	font-family: "poppins", sans-serif;
+	font-size: 72px;
+	color: white;
+	
+}
+
+img{
+	border-radius: 50%;
+	box-shadow: white;
+}
+
+h2{
+	font-family: "poppins", sans-serif;
+	font-size: 32px;
+	color: white;
+}
+
+a{
+	font-family: "poppins", sans-serif;
+	font-size: 32px;
+	color: white;
+}
+
+*{
+	margin: 10px;
+	padding: 10px;
+	background: royalblue;
+}
+
+@keyframes fading-letters {
+	from {
+		opacity:  1;
+		transform:  translateY(0px);
+	}
+	to {
+		opacity:  0;
+		transform:  translateX(10px);
+	}
+}
+
+.title:hover{
+	animation: fading-letters 2s alternate;
+}

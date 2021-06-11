@@ -1,0 +1,40 @@
+/*styling for page 3 of reading 4*/
+
+.grid{
+	display: grid;
+	grid-template-rows: 20% 60% 20%;
+	height: 800px;
+}
+
+
+.title, .link{
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+
+h1{
+	font-family: "poppins", sans-serif;
+	font-size: 72px;
+	color: white;
+	
+}
+
+h2{
+	font-family: "poppins", sans-serif;
+	font-size: 32px;
+	color: white;
+}
+
+a{
+	font-family: "poppins", sans-serif;
+	font-size: 32px;
+	color: white;
+}
+
+*{
+	margin: 10px;
+	padding: 10px;
+	background: royalblue;
+}
+

@@ -2,8 +2,8 @@
 
 
 .letter {
-    width:200px; /*resize as you see fit */
-    height:300px; /*resize as you see fit */
+    width:150px; /*resize as you see fit */
+    height:150px; /*resize as you see fit */
     display: inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
     /*border:1px solid #000;*/ /*feel free to remove or hide this rule */
     position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
@@ -654,13 +654,25 @@
 
 /*letter e-4 begins*/
 
+.letter-e-4 div{
+	border: 1.5px solid black;
+}
+
+.letter-e-4-square {
+	height: 175px;
+	width: 150px;
+	border: 1px solid black;
+	bottom: -1160px;
+	left: -1810px;
+}
+
 .letter-e-4-circle {
 	width:  70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 70px;
-	left: 40px;
+	bottom: -1090px;
+	left: -1770px;
 }
 
 .letter-e-4-half-circle-bottom {
@@ -669,8 +681,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(90deg);
-    bottom: -40px;
-    left: 40px;
+    bottom: -1200px;
+    left: -1770px;
 }
 
 .letter-e-4-half-circle-top {
@@ -679,21 +691,33 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(-90deg);
-    bottom: 65px;
-    left: 40px;
+    bottom: -1095px;
+    left: -1770px;
 }
 
 /*letter e-4 ends*/
 
 /*letter n-1 begins*/
 
+.letter-n-1 div{
+	border: 1.5px solid black;
+}
+
+.letter-n-1-square {
+	height: 150px;
+	width: 170px;
+	border: 1px solid black;
+	bottom: -1160px;
+	left: -1880px;
+}
+
 .letter-n-1-circle {
 	width:  70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 0;
-	left: 60px;
+	bottom: -1160px;
+	left: -1820px;
 }
 
 .letter-n-1-half-circle {
@@ -702,8 +726,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(-90deg);
-    bottom: -5px;
-    left: 60px;
+    bottom: -1165px;
+    left: -1820px;
 }
 
 .letter-n-1-curved-top-medium {
@@ -711,12 +735,24 @@
     width: 60px;
     border-radius: 150px 150px 0 0;
     background-color: rgba(1, 153, 102, .7);
-    bottom:  0;
+    bottom:  -1160px;
+    left: -1880px;
 }
 
 /*letter n-1 ends*/
 
 /*letter v begins*/
+
+.letter-v div{
+	border: 1.5px solid black;
+}
+
+.letter-v-square {
+	height: 105px;
+	width: 150px;
+	bottom: -1160px;
+	left: -2000px;
+}
 
 .letter-v-half-circle {
 	height: 150px;
@@ -724,8 +760,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(90deg);
-    bottom: -40px;
-    left: 40px;
+    bottom: -1200px;
+    left: -1960px;
 }
 
 .letter-v-circle {
@@ -733,21 +769,34 @@
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 35px;
-	left:  40px;
+	bottom: -1125px;
+	left:  -1960px;
 }
 
 /*letter v ends*/
 
 /*letter i starts*/
 
+.letter-i div{
+	border: 1.5px solid black;
+	transform:  rotateZ(25deg);
+}
+
+.letter-i-square {
+	height: 200px;
+	width: 70px;
+	bottom: -850px;
+	left: 1018px;
+}
+
+
 .letter-i-curved-top-short {
 	height: 115px;
     width: 60px;
     border-radius: 150px 150px 0 0;
     background-color: rgba(1,153,102,.7);
-    bottom:  0;
-    left:  5px;
+    bottom:  -846px;
+    left:  1005px;
 }
 
 .letter-i-circle {
@@ -755,19 +804,32 @@
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 130px;
+	bottom: -725px;
+	left: 1045px;
 }
 
 /*letter i ends*/
 
 /*letter r-2 begins*/
 
+.letter-r-2 div{
+	border: 1.5px solid black;
+}
+
+.letter-r-2-square {
+	height: 150px;
+	width: 130px;
+	bottom: -850px;
+	left: 810px;
+}
+
 .letter-r-2-curved-top-medium {
 	height: 150px;
     width: 60px;
     border-radius: 150px 150px 0 0;
     background-color: rgba(1, 153, 102, .7);
-    bottom:  0;
+    bottom:  -850px;
+    left: 810px;
 }
 
 .letter-r-2-circle {
@@ -775,21 +837,31 @@
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 80px;
-	left: 60px;
+	bottom: -770px;
+	left: 870px;
 }
 
 /*letter r-2 ends*/
 
 /*letter o-2 begins*/
 
+.letter-o-2 div{
+	border: 1.5px solid black;
+}
+
+.letter-o-2-square {
+	height: 150px;
+	width: 140px;
+	bottom: -850px;
+	left: 650px;
+}
 .letter-o-2-circle {
 	width:  70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 40px;
-	left:  35px;
+	bottom: -810px;
+	left:  685px;
 }
 
 .letter-o-2-half-circle-left {
@@ -798,7 +870,8 @@
     border-radius: 0px 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(180deg);
-    bottom: 0;
+    bottom: -850px;
+    left: 650px;
 }
 
 .letter-o-2-half-circle-right {
@@ -806,21 +879,33 @@
     width: 70px;
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
-    bottom: 0;
-    left: 70px;
+    bottom: -850px;
+    left: 720px;
 }
 
 /*letter o-2 ends*/
 
 /*letter n-2 begins*/
 
+.letter-n-2 div{
+	border: 1.5px solid black;
+}
+
+.letter-n-2-square {
+	height: 150px;
+	width: 170px;
+	border: 1px solid black;
+	bottom: -850px;
+	left: 500px;
+}
+
 .letter-n-2-circle {
 	width:  70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 0;
-	left: 60px;
+	bottom: -850px;
+	left: 560px;
 }
 
 .letter-n-2-half-circle {
@@ -829,8 +914,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(-90deg);
-    bottom: -5px;
-    left: 60px;
+    bottom: -855px;
+    left: 560px;
 }
 
 .letter-n-2-curved-top-medium {
@@ -838,7 +923,8 @@
     width: 60px;
     border-radius: 150px 150px 0 0;
     background-color: rgba(1, 153, 102, .7);
-    bottom:  0;
+    bottom:  -850px;
+    left: 500px;
 }
 
 /*letter n-2 ends*/
@@ -852,7 +938,8 @@
 .letter-m-2-square {
 	height: 105px;
 	width: 260px;
-	bottom: 600px;
+	bottom: -850px;
+	left: 400px;
 }
 
 .letter-m-2-half-circle-left {
@@ -861,8 +948,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(-90deg);
-    bottom: -5px;
-    left: 40px;
+    bottom: -855px;
+    left: 440px;
 }
 
 .letter-m-2-half-circle-right {
@@ -871,16 +958,16 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(-90deg);
-    bottom: -5px;
-    left: 150px;
+    bottom: -855px;
+    left: 550px;
 }
 .letter-m-2-circle-left {
 	width:  70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 0;
-	left: 40px;
+	bottom: -850px;
+	left: 440px;
 }
 
 .letter-m-2-circle-right {
@@ -888,21 +975,33 @@
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 0;
-	left:  150px;
+	bottom: -850px;
+	left:  550px;
 }
 
 /*letter m-2 ends*/
 
 /*letter e-5 begins*/
 
+.letter-e-5 div{
+	border: 1.5px solid black;
+}
+
+.letter-e-5-square {
+	height: 175px;
+	width: 150px;
+	border: 1px solid black;
+	bottom: -850px;
+	left: 500px;
+}
+
 .letter-e-5-circle {
 	width:  70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 70px;
-	left: 40px;
+	bottom: -780px;
+	left: 540px;
 }
 
 .letter-e-5-half-circle-bottom {
@@ -911,8 +1010,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(90deg);
-    bottom: -40px;
-    left: 40px;
+    bottom: -890px;
+    left: 540px;
 }
 
 .letter-e-5-half-circle-top {
@@ -921,21 +1020,33 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(-90deg);
-    bottom: 65px;
-    left: 40px;
+    bottom: -785px;
+    left: 540px;
 }
 
 /*letter e-5 ends*/
 
 /*letter n-3 begins*/
 
+.letter-n-3 div{
+	border: 1.5px solid black;
+}
+
+.letter-n-3-square {
+	height: 150px;
+	width: 170px;
+	border: 1px solid black;
+	bottom: -850px;
+	left: 360px;
+}
+
 .letter-n-3-circle {
 	width:  70px;
 	height: 70px;
 	border-radius: 50%;
 	background-color: rgba(250,163,32,.7);
-	bottom: 0;
-	left: 60px;
+	bottom: -850px;
+	left: 420px;
 }
 
 .letter-n-3-half-circle {
@@ -944,8 +1055,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(-90deg);
-    bottom: -5px;
-    left: 60px;
+    bottom: -855px;
+    left: 420px;
 }
 
 .letter-n-3-curved-top-medium {
@@ -953,20 +1064,33 @@
     width: 60px;
     border-radius: 150px 150px 0 0;
     background-color: rgba(1, 153, 102, .7);
-    bottom:  0;
+    bottom:  -850px;
+    left: 360px;
 }
 
 /*letter n-3 ends*/
 
 /*letter t-4 begins*/
 
+.letter-t-4 div{
+	border: 1.5px solid black;
+}
+
+.letter-t-4-square {
+	height: 220px;
+	width: 150px;
+	border: 1px solid black;
+	bottom: -850px;
+	left: 260px;
+}
+
 .letter-t-4-curved-top-medium {
 	height: 150px;
     width: 60px;
     border-radius: 150px 150px 0 0;
     background-color: rgba(1, 153, 102, .7);
-    bottom:  0;
-    left:  45px;
+    bottom:  -850px;
+    left:  305px;
 }
 
 .letter-t-4-half-circle {
@@ -975,8 +1099,8 @@
     border-radius: 0 150px 150px 0;
     background-color: rgba(244,157,178,.7);
     transform:  rotate(90deg);
-    bottom: 110px;
-    left: 40px;
+    bottom: -740px;
+    left: 300px;
 }
 
 /*letter t ends*/
