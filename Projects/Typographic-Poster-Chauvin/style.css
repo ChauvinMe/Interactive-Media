@@ -1,14 +1,14 @@
-/*laying out the grid*/
+/*laying out the grid for the elements*/
 
 
 .letter {
-    width:150px; /*resize as you see fit */
-    height:150px; /*resize as you see fit */
+    width:150px; 
+    height:150px; 
     display: inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-    /*border:1px solid #000;*/ /*feel free to remove or hide this rule */
-    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+    position:relative; 
     transform:  scale(0.5,0.5);
 }
+/*sets the text styling*/
 body{
 	background-color: #170F33;
 	font-family: "Poppins", sans-serif;
@@ -27,13 +27,14 @@ body{
 .letter div{
 	position:  absolute;
 }
+/*beginning of the section for the CSS font letters*/
 
 /*word "what" starts*/
 
 /*letter w begins*/
 
 .letter-w div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-w-square {
@@ -47,7 +48,7 @@ body{
 .letter-w-half-circle-left {
 	height: 150px;
     width: 70px;
-    border: 2px solid white;
+    border: 2.5px solid white;
     border-radius: 0 150px 150px 0;
     
     transform:  rotate(45deg);
@@ -87,7 +88,7 @@ body{
 /*letter h-1 begins*/
 
 .letter-h-1 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-h-1-square {
@@ -135,7 +136,7 @@ body{
 /*letter a-1 starts*/
 
 .letter-a-1 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-a-1-square {
@@ -178,11 +179,11 @@ body{
 /*letter t-1 begins*/
 
 .letter-t-1 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-t-1-square {
-	height: 222px;
+	height: 222.5px;
 	width: 150px;
 	border: 1px solid white;
 	bottom: -625px;
@@ -195,7 +196,7 @@ body{
     width: 60px;
     border-radius: 150px 150px 0 0;
     
-    bottom:  -622px;
+    bottom:  -622.5px;
     left:  966px;
     transform: rotateZ(-25deg);
 }
@@ -219,7 +220,7 @@ body{
 /*letter c starts*/
 
 .letter-c div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-c-square {
@@ -253,7 +254,7 @@ body{
 /*letter o-1 begins*/
 
 .letter-o-1 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-o-1-square {
@@ -294,7 +295,7 @@ body{
 /*letter m-1 begins*/
 
 .letter-m-1 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-m-1-square {
@@ -345,7 +346,7 @@ body{
 /*letter e-1 starts*/
 
 .letter-e-1 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-e-1-square {
@@ -389,7 +390,7 @@ body{
 /*letter s begins*/
 
 .letter-s div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-s-square {
@@ -443,7 +444,7 @@ body{
 
 /*letter a starts*/
 .letter-a div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-a-square {
@@ -486,7 +487,7 @@ body{
 /*letter f begins*/
 
 .letter-f div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-f-square {
@@ -529,7 +530,7 @@ body{
 /*letter t begins*/
 
 .letter-t div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-t-square {
@@ -563,7 +564,7 @@ body{
 /*letter e starts*/
 
 .letter-e div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-e-square {
@@ -607,12 +608,12 @@ body{
 /*letter r begins*/
 
 .letter-r div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-r-square {
 	height: 150px;
-	width: 132px;
+	width: 132.5px;
 	bottom: -820px;
 	left: 990px;
 	transform: rotateZ(45deg);
@@ -645,7 +646,7 @@ body{
 /*letter t-3 begins*/
 
 .letter-t-3 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 
 }
 
@@ -683,7 +684,7 @@ body{
 /*letter h-2 begins*/
 
 .letter-h-2 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-h-2-square {
@@ -726,7 +727,7 @@ body{
 /*letter e-3 starts*/
 
 .letter-e-3 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-e-3-square {
@@ -774,7 +775,7 @@ body{
 /*letter e-4 begins*/
 
 .letter-e-4 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-e-4-square {
@@ -818,7 +819,7 @@ body{
 /*letter n-1 begins*/
 
 .letter-n-1 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-n-1-square {
@@ -861,7 +862,7 @@ body{
 /*letter v begins*/
 
 .letter-v div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-v-square {
@@ -894,7 +895,7 @@ body{
 /*letter i starts*/
 
 .letter-i div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 	transform:  rotateZ(25deg);
 }
 
@@ -928,7 +929,7 @@ body{
 /*letter r-2 begins*/
 
 .letter-r-2 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-r-2-square {
@@ -960,7 +961,7 @@ body{
 /*letter o-2 begins*/
 
 .letter-o-2 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-o-2-square {
@@ -1001,7 +1002,7 @@ body{
 /*letter n-2 begins*/
 
 .letter-n-2 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-n-2-square {
@@ -1044,7 +1045,7 @@ body{
 /*letter m-2 begins*/
 
 .letter-m-2 div{
-	border:  2px solid white;
+	border:  2.5px solid white;
 }
 
 .letter-m-2-square {
@@ -1094,7 +1095,7 @@ body{
 /*letter e-5 begins*/
 
 .letter-e-5 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-e-5-square {
@@ -1138,7 +1139,7 @@ body{
 /*letter n-3 begins*/
 
 .letter-n-3 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-n-3-square {
@@ -1181,7 +1182,7 @@ body{
 /*letter t-4 begins*/
 
 .letter-t-4 div{
-	border: 2px solid white;
+	border: 2.5px solid white;
 }
 
 .letter-t-4-square {
@@ -1214,11 +1215,69 @@ body{
 /*letter t ends*/
 
 
-/*Square 1 + text starts*/
+.letter-Q div{
+	border: 2.5px solid white;
+}
+
+.letter-Q-square {
+	height: 240px;
+	width: 150px;
+	border: 1px solid white;
+	bottom: -515px;
+	left: 1075px;
+	transform: rotateZ(-30deg);
+}
+
+.letter-Q-circle-top {
+	width:  70px;
+	height: 70px;
+	border-radius: 50%;
+	bottom: -385px;
+	left: 1090px;
+	transform: rotateZ(-30deg);
+}
+
+.letter-Q-circle-bottom {
+	width:  70px;
+	height: 70px;
+	background-color: white;
+	border-radius: 50%;
+	bottom: -505px;
+	left: 1155px;
+	transform: rotateZ(-30deg);
+}
+
+.letter-Q-half-circle-top {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    transform:  rotate(-90deg);
+    bottom: -395px;
+    left: 1070px;
+    transform: rotateZ(-120deg);
+}
+
+.letter-Q-half-circle-side {
+	height: 150px;
+    width: 70px;
+    border-radius: 0 150px 150px 0;
+    bottom: -410px;
+    left: 1125px;
+    transform: rotateZ(-30deg);
+
+}
+
+/*letter Q ends*/
+
+/*end of the section laying out the CSS font*/
+
+/*Beginning of the section laying out the copy*/
+
+/*location info starts*/
 .letter-text-1-square {
 	height: 480px;
 	width: 490px;
-	border: 2px solid #96D9F2;
+	border: 2.5px solid #96D9F2;
 	transform: rotateZ(25deg);
 	bottom: -655px;
 	left: -1930px;
@@ -1234,16 +1293,16 @@ body{
 	left: -1915px;
 }
 
-/*Square 1 + text ends*/
+/*location info ends*/
 
-/*Square 2 + text starts*/
+/*Naomi Klein starts*/
 
 .letter-text-2-square {
 	height: 150px;
 	width: 530px;
-	border: 2px solid #96D9F2;
-	bottom: 255px;
-	left: -990px;
+	border: 2.5px solid #96D9F2;
+	bottom: 525px;
+	left: -1060px;
 }
 
 .letter-text-2-blurb {
@@ -1251,20 +1310,20 @@ body{
 	width: 550px;
 	font-size: 80px;
 	text-align: center;
-	bottom: 190px;
-	left: -1000px;
+	bottom: 460px;
+	left: -1060px;
 }
 
-/*Square 2 + text ends*/
+/*Square Naomi Klein ends*/
 
-/*Square 3 + text starts*/
+/*Date and time starts*/
 
 .letter-text-3-square {
 	height: 250px;
 	width: 290px;
-	border: 2px solid #96D9F2;
-	bottom: 740px;
-	left: 1860px;
+	border: 2.5px solid #96D9F2;
+	bottom: 565px;
+	left: 1770px;
 }
 
 .letter-text-3-blurb {
@@ -1272,18 +1331,18 @@ body{
 	width: 250px;
 	font-size: 30px;
 	text-align: center;
-	bottom: 710px;
-	left: 1880px;
+	bottom: 535px;
+	left: 1790px;
 }
 
-/*Square 3 + text ends*/
+/*Date and time ends*/
 
-/*Square 4 + text starts*/
+/*Mirko Zardini starts*/
 
 .letter-text-4-square {
 	height: 350px;
 	width: 450px;
-	border: 2px solid #96D9F2;
+	border: 2.5px solid #96D9F2;
 	bottom: 610px;
 	left: 950px;
 	transform: rotateZ(-30deg);
@@ -1295,8 +1354,8 @@ body{
 	font-size: 80px;
 	text-align: center;
 	line-height: 80px;
-	bottom: 630px;
-	left: 970px;
+	bottom: 620px;
+	left: 980px;
 	transform: rotateZ(-30deg);
 }
 
@@ -1306,21 +1365,22 @@ body{
 	font-size: 30px;
 	text-align: center;
 	line-height: 80px;
-	bottom: 680px;
-	left: 940px;
+	bottom: 460px;
+	left: 1080px;
+	line-height: 40px;
 	transform: rotateZ(-30deg);
 }
 
-/*Square 4 + text ends*/
+/*Mirko Zardini ends*/
 
-/*Square 5 + text starts*/
+/*Location starts*/
 
 .letter-text-5-square {
 	height: 160px;
 	width: 370px;
-	border: 2px solid #96D9F2;
-	bottom: -350px;
-	left: 1400px;
+	border: 2.5px solid #96D9F2;
+	bottom: -340px;
+	left: -532px;
 }
 
 .letter-text-5-blurb {
@@ -1328,13 +1388,13 @@ body{
 	width: 370px;
 	font-size: 30px;
 	text-align: center;
-	bottom: -380px;
-	left: 1400px;
+	bottom: -370px;
+	left: -532px;
 }
 
-/*Square 5 + text ends*/
+/*Location ends*/
 
-/*Square 6 text starts*/
+/*Title starts*/
 
 .letter-text-6-blurb {
 	height: 160px;
@@ -1342,64 +1402,67 @@ body{
 	font-size: 120px;
 	text-align: left;
 	font-weight: 500;
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 	bottom: 900px;
 	left: -900px;
 }
 
-/*Square 6 text ends*/
+/*Title text ends*/
 
-/*Square 7 text starts*/
+/*Body text paragraphs start*/
 
-.letter-text-7-blurb div{
+.letter-text-7 div{
 	font-size: 23px;
 	text-align: left;
-	line-height: 40px;
+	line-height: 35px;
+	letter-spacing: 2.5px;
 }
 
 .letter-text-7-blurb-1 {
 	height: 160px;
 	width: 900px;
-	font-size: 23px;
-	text-align: left;
-	line-height: 40px;
-	letter-spacing: 2px;
-	bottom: 320px;
+	bottom: 570px;
 	left: 930px;
+	font-weight: 700;
 }
 
 .letter-text-7-blurb-2 {
 	height: 160px;
-	width: 900px;
-	font-size: 23px;
-	text-align: left;
-	line-height: 40px;
-	letter-spacing: 2px;
-	bottom: 320px;
+	width: 800px;
+	bottom: 510px;
 	left: 930px;
 }
 
 .letter-text-7-blurb-3 {
 	height: 160px;
-	width: 900px;
-	font-size: 23px;
-	text-align: left;
-	line-height: 40px;
-	letter-spacing: 2px;
-	bottom: 320px;
+	width: 800px;
+	bottom: 380px;
 	left: 930px;
 }
 
 .letter-text-7-blurb-4 {
 	height: 160px;
-	width: 900px;
-	font-size: 23px;
-	text-align: left;
-	line-height: 40px;
-	letter-spacing: 2px;
-	bottom: 320px;
+	width: 800px;
+	bottom: -30px;
 	left: 930px;
 }
 
+.letter-text-7-blurb-5 {
+	bottom: -180px;
+	left: 930px;
+}
 
-/*Square 7 text ends*/
+/*link to event page*/
+a{
+	font-size: 23px;
+	text-align: left;
+	font-family: "Poppins", sans-serif;
+	color: white;
+	line-height: 35px;
+	letter-spacing: 2.5px;
+}
+
+/*Body text paragraphs end*/
+
+
+
