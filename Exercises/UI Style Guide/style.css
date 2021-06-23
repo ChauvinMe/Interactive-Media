@@ -1,0 +1,385 @@
+/*Defining the Grid*/
+.grid{
+	display:  grid;
+	grid-template-columns: repeat(3, 33.33%);
+	grid-template-rows: 10% 14% 10% 20% 12% 8% 3% 6% 3% 4% 6%;
+	height:  2050px;
+}	
+
+/*Defining the grid ends*/
+
+/*Page Setup*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Page set-up ends*/
+
+/*Header Section Begins*/
+
+.header, .content{
+	grid-column-start: 1;
+	grid-column-end:  span 3;
+	padding:  70px 100px;
+}
+
+.header{
+	background-color: darkgrey;
+}
+
+/*Header section ends*/
+
+/*Text Styling*/
+
+h1 {
+	font-family: 'Helvetica', Poppins, sans-serif;
+	font-weight: 400;
+	font-size:  4vw;
+	line-height:  4vw;
+	color:  white;
+
+}
+
+h2{
+	font-family:'Helvetica', Poppins, sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: darkgrey;
+}
+
+h3{
+	font-family:'Helvetica', Poppins, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: darkgrey;
+}
+
+p{
+	font-family: "Jost", poppins, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+p2{
+	font-family: poppins, sans-serif;
+	font-weight: 200;
+	font-size: 36px;
+}
+
+p3{
+	font-family: "Jost", poppins, sans-serif;
+	font-weight: 400;
+	font-size: 100px;
+}
+
+p4{
+	font-family: "Jost", poppins, sans-serif;
+	font-weight: 300;
+	font-size: 72px;
+}
+
+p5{
+	font-family: poppins, sans-serif;
+	font-weight: 200;
+	font-size: 36px;
+}
+
+p6{
+	font-family: poppins, sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+p7{
+	font-family: poppins, sans-serif;
+	font-weight: 200;
+	font-size: 24px;
+}
+
+p8{
+	font-family: poppins, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+p9{
+	font-family: poppins, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+/*Text Styling ends*/
+
+/*Colour Section Begins*/
+
+/*Creating the colour circles*/
+.colour {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;	
+}
+
+/*Creating the grid for the colour sections*/
+.grid-2{
+	display:  grid;
+	grid-template-columns: 10% 23.33% 10% 23.33% 10% 23.33%;
+	grid-template-rows: 50% 50%;
+	height:  250px;
+	padding-top: 30px;
+	padding-right: 5px;
+	padding
+	}
+
+/*Defining the colours and where they sit in the grid*/
+
+.colour-blue {
+	background-color: #20428b;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.colour-orange {
+	background-color: #e4843a;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.colour-red {
+	background-color: #d72e32;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.colour-green {
+	background-color: #529f61;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.colour-black {
+	background-color: #000000;
+	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.colour-white {
+	background-color: #FFFFFF;
+	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	border: 0.5px solid black;
+}
+
+/*Defining the colour labels and where they sit in the grid*/
+
+.label{
+	font-family:'Helvetica', Poppins, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: left;
+}
+
+.label-blue {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.label-orange {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.label-red {
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.label-green {
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.label-black {
+	grid-column-start: 6;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.label-white {
+	grid-column-start: 6;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+/*Colour section ends*/
+
+/*Body copy section begins*/
+
+.body-copy{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	padding:  70px 100px;
+}
+
+.large-body-copy{
+	grid-column-start: 2;
+	grid-column-end:  span 3;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	padding:  70px 100px;
+}
+
+/*Body section ends*/
+
+/*Button Section begins*/
+
+.hover-box, .inactive-box, .active-box{
+	border: 1px solid black;
+	border: outset;
+	width: 100px;
+	height: 30px;
+	border-radius: 5%;
+	font-family: 'poppins', sans-serif;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.active-box{
+	background-color: #E4843A;
+	color: white;
+}
+
+.hover-box{
+	border-color: #E4843A;
+}
+
+.inactive{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 8;
+	grid-row-end: 8;
+	padding:  70px 100px;
+	
+}
+
+.active{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 8;
+	grid-row-end: 8;
+	padding:  70px 100px;
+	
+}
+
+.hover{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 8;
+	grid-row-end: 8;
+	padding:  70px 100px;
+
+}
+
+/*Button section ends*/
+
+/*Input section starts*/
+
+.inactive-input-box, .error-input-box, .active-input-box, .complete-input-box, .success-input-box{
+	border: 1px solid black;
+	width: 200px;
+	height: 30px;
+	font-family: 'poppins', sans-serif;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: justify;
+	padding-left: 10px;
+}
+
+.inactive-input-box, .success-input-box{
+	color: lightgray;
+}
+
+.active-input-box{
+	border-color: #E4843A;
+}
+
+.inactive-input{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 10;
+	grid-row-end: 10;
+	padding:  70px 100px;
+	
+}
+
+.active-input{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 10;
+	grid-row-end: 10;
+	padding:  70px 100px;
+	
+}
+
+.complete-input{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 10;
+	grid-row-end: 10;
+	padding:  70px 100px;
+}
+
+.error-input{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 11;
+	grid-row-end: 11;
+	padding:  70px 100px;
+}
+
+.success-input{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 11;
+	grid-row-end: 11;
+	padding:  70px 100px;
+}
+
+p10{
+	font-family: 'poppins', sans-serif;
+	font-size: 12px;
+	color: #E4843A;
+}
+
+p11{
+	font-family: 'poppins', sans-serif;
+	font-size: 12px;
+}
+
+/*Input section ends*/
