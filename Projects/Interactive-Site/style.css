@@ -1,0 +1,145 @@
+
+/*Sets the container where the draggable elements sit*/
+#container {
+  width: 100%;
+  height: 100vh;
+  background-color: #001026;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  border-radius: 7px;
+  touch-action: none;
+}
+
+/*text styling*/
+h1{
+  font-family: "Poppins", sans serif;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+p{
+  font-family: "Poppins", sans serif;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/*sets the size of the camera window*/
+#videoElement {
+  width: 1000px;
+  height: 1000px;
+  background-color: #666;
+}
+
+/*sets the draggable items*/
+.item {
+  touch-action: none;
+  user-select: none;
+  position: fixed;
+  overflow: auto;
+  border: 0.5px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 20px solid white;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+img{
+  width: 290px;
+}
+
+/*sets the user instructions window*/
+.header {
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  top: 20%;
+  left: 7%;
+  color: #001026;
+}
+
+/*sets the references window*/
+.references {
+  width: 400px;
+  height: 300px;
+  background-color: pink;
+  top: 60%;
+  left: 70%;
+  color: white;
+}
+
+/*sets the ombre box window*/
+.one {
+  width: 600px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, .1);
+  top: 30%;
+  left: 10%;
+}
+/*sets the gradient in the ombre box*/
+.colour-box{
+  width: 600px;
+  height: 6000px;
+  opacity: .2;
+  background: linear-gradient(180deg, #c388e3 0%, #c32f82 20%, #c33423 40%, #c39821 60%, #c3da2e 80%, #23ebc4 100%);
+}
+
+/*sets the side of the face window*/
+.two {
+  width: 300px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, .1);
+}
+
+/*sets the eyes window*/
+.three {
+  width: 305px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, .1);
+  top: 60%;
+  left: 15%;
+}
+
+/*sets the mouth window*/
+.four {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, .1);
+  top: 20%;
+  left: 70%;
+}
+
+/*Sets the custom scroll bars*/
+
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 10px;
+width: 2px;
+border: 1px dotted pink;
+}
+
+::-webkit-scrollbar-thumb {
+background: pink; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: hotpink;  
+}
+
+
+
+
+
+
+
