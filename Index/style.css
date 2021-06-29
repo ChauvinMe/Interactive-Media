@@ -1,0 +1,542 @@
+html{
+  scroll-behaviour: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #ebecf6;
+  overflow: visible;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*back to top link*/
+.main-footer{     
+     position: sticky; 
+     bottom: 0;
+     padding-left: 10px;
+}
+.main-footer:hover{
+  animation: bounce2 2s ease infinite;
+}
+
+/*text styling*/
+h1{
+  color: #ebecf6;
+  font-weight: 200;
+  padding-left: 1%;
+}
+
+p{
+  color: #ebecf6;
+}
+
+a{
+  color: #000039;
+  font-family:'Poppins', sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  line-height: 80px;
+}
+
+a:hover{
+  color: #ebecf6;
+}
+
+
+/*Setting the header gradient*/
+.Header{
+  height: 1000px;
+  width: 100%;
+  background: linear-gradient(180deg, #000039 0%, #5c5c82 66.33%, #ebecf6 100%);
+}
+
+h2{
+  font-family:  'Urbane Rounded', sans-serif;
+  font-size: 100px;
+  padding-top: 20%;
+  padding-left: 45%;
+  font-weight: 600;
+  color: #ebecf6;
+}
+
+p2{
+  font-family: 'Urbane Rounded', sans-serif;
+  font-size: 72px;
+  padding-top: 20%;
+  padding-left: 16%;
+  color: #ebecf6;
+}
+
+.invisible-box{
+  height: 1000px;
+  width: 1000px;
+}
+
+/*Sticky Elements Start*/
+
+/*Exercises*/
+
+.object{
+  font-family: Poppins, sans-serif;
+  color: #000039;
+  font-size: 150px;
+  font-weight: 500;
+}
+
+.object1{
+  position:sticky;
+  top: 0;
+  padding-left: 300px;
+}
+
+.object2{
+  position: sticky;
+  top: 0;
+  padding-left: 810px;
+}
+
+.object3{
+  position: sticky;
+  top: 0;
+  padding-left: 0;
+  color: seagreen;
+}
+
+/*Reading Responses*/
+
+.object4{
+  position:sticky;
+  top: 0;
+  padding-left: 0px;
+  padding-top: 200px;
+  color: royalblue;
+}
+
+.object5{
+  position: sticky;
+  top: 0;
+  padding-left: 300px;
+  padding-top: 200px;
+}
+
+.object6{
+  position: sticky;
+  top: 0;
+  padding-left: 600px;
+  padding-top: 350px;
+}
+
+.object7{
+  position: sticky;
+  top: 0;
+  padding-left: 960px;
+  padding-top: 350px;
+}
+
+/*Projects*/
+
+.object8{
+  position:sticky;
+  top: 0;
+  padding-left: 0px;
+  padding-top: 550px;
+  color: deeppink;
+}
+
+.object9{
+  position: sticky;
+  top: 0;
+  padding-left: 300px;
+  padding-top: 550px;
+}
+
+.object10{
+  position: sticky;
+  top: 0;
+  padding-left: 770px;
+  padding-top: 550px;
+}
+
+/*Resources*/
+
+.object11{
+  position:sticky;
+  top: 0;
+  padding-left: 0px;
+  padding-top: 750px;
+  color: #a3a5ae;
+}
+
+.object12{
+  position: sticky;
+  top: 0;
+  padding-left: 300px;
+  padding-top: 750px;
+}
+
+.object13{
+  position: sticky;
+  top: 0;
+  padding-left: 580px;
+  padding-top: 750px;
+}
+
+/*Sticky Elements End*/
+
+/*Rellax Elements Start*/
+
+/*Exercise Section*/
+
+.thing1{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 500%;
+  left: 20%;
+  background: seagreen;
+  border-radius: 50%;
+}
+
+.thing2{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 300%;
+  left: 20%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing3{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 100%;
+  left: 80%;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.thing4{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 105%;
+  left: 20%;
+  background: deeppink;
+  border-radius: 50%;
+}
+
+.thing5{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 400%;
+  left: 55%;
+  background: seagreen;
+  border-radius: 50%;
+}
+
+
+.thing6{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 900%;
+  left: 350px;
+  background: royalblue;
+  border-radius: 50%;
+}
+
+.thing7{
+  position: absolute;
+  top: 685%;
+  left: 900px;
+  border-radius: 50%;
+  border: 2px solid #000039;
+  height: 490px;
+  width: 490px;
+  text-align: center;
+}
+
+/*Reading Response Section*/
+
+.thing8{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 480%;
+  left: 70%;
+  background: deeppink;
+  border-radius: 50%;
+}
+
+.thing9{
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 280%;
+  left: 70%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing10{
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 360%;
+  left: 60%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing11{
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  top: 405%;
+  left: 66%;
+  background: royalblue;
+  border-radius: 50%;
+}
+
+.thing12{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 950%;
+  left: 10%;
+  background: royalblue;
+  border-radius: 50%;
+}
+
+.thing13{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 600%;
+  left: 300px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.thing14{
+  position: absolute;
+  top: 1040%;
+  left: 250px;
+  border-radius: 50%;
+  border: 2px solid #000039;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.thing15{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 730%;
+  left: 250px;
+  border-radius: 50%;
+  background: deeppink;
+}
+
+/*Projects Section*/
+
+.thing16{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 870%;
+  left: 65%;
+  background: deeppink;
+  border-radius: 50%;
+}
+
+.thing17{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 820%;
+  left: 70%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing18{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 760%;
+  left: 90%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing19{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 1105%;
+  left: 66%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing20{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 856%;
+  left: 10%;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.thing21{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 1290%;
+  left: 300px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.thing22{
+  position: absolute;
+  top: 990%;
+  left: 63%;
+  border-radius: 50%;
+  border: 2px solid #000039;
+  height: 490px;
+  width: 490px;
+  text-align: center;
+}
+
+.thing23{
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: 980%;
+  left: 800px;
+  background: seagreen;
+  border-radius: 50%;
+}
+
+/*Resources Section*/
+
+.thing24{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 1400%;
+  left: 20%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing25{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 1320%;
+  left: 70%;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+.thing26{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 1260%;
+  left: 90%;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.thing27{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 1305%;
+  left: 66%;
+  background: deeppink;
+  border-radius: 50%;
+}
+
+.thing28{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 1506%;
+  left: 50%;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.thing29{
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: 1390%;
+  left: 300px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.thing30{
+  position: absolute;
+  top: 1710%;
+  left: 25%;
+  border-radius: 50%;
+  font-size: 50px;
+  border: 2px solid #000039;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+}
+
+.thing31{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 1190%;
+  left: 500px;
+  background: #a3a5ae;
+  border-radius: 50%;
+}
+
+/*creating a bounce animation for "back to top"*/
+@keyframes bounce2 {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+  }
+
+
+
+@media (max-width: 991px) {
+            .process-template {
+                width: 60%;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                margin: 40px;
+                font-size: 10px;
+            }
+            .process-template {
+                width: 100%;
+            }
+        }
